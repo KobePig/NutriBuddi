@@ -1,0 +1,12 @@
+apple
+banana
+caesar salad
+carrot
+chow mein
+french fries
+hamburger
+orange
+pizza
+spaghetti
+taco
+white rice
