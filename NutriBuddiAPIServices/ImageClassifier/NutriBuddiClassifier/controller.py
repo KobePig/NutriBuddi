@@ -18,7 +18,7 @@ application = Flask(__name__)
 application.debug = True
 
 #transfer = S3Transfer(boto3.client('s3', cfg.AWS_REGION, aws_access_key_id=cfg.AWS_APP_ID, aws_secret_access_key=cfg.AWS_APP_SECRET))
-s3_client = boto3.client('s3', aws_access_key_id='AKIAIFVDJNCPZE3LX6MA', aws_secret_access_key='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')
+s3_client = boto3.client('s3', aws_access_key_id='###', aws_secret_access_key='###')
 modelpath = './static/extModel1512927878.h5'
 labels = ['apple', 'banana', 'caesar salad', 'carrot', 'chow mein', 'french fries', 'hamburger', 'orange', 'pizza',  'spaghetti', 'taco', 'white rice']
 classifier = FoodClassifier(modelpath, labels)
